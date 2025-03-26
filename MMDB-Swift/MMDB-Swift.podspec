@@ -7,20 +7,19 @@ Pod::Spec.new do |s|
                    Geo data by IP address.
                    DESC
 
-  s.homepage     = "https://github.com/lexrus/MMDB-Swift"
+  s.homepage     = "https://github.com/ismycho/MMDB"
 
   s.license      = { :type => "APACHE 2.0", :file => "LICENSE" }
 
-  s.author             = { "Lex Tang" => "lexrus@gmail.com" }
-  s.social_media_url   = "https://twitter.com/lexrus"
+  s.author             = { "ismycho" => "khw0212@hanmail.net" }
 
   s.platform     = :ios, :osx
 
   s.swift_version = "5.0"
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.10"
+  s.ios.deployment_target = "13.0"
+  s.osx.deployment_target = "11.10"
 
-  s.source       = { :git => "https://github.com/lexrus/MMDB-Swift.git",
+  s.source       = { :git => "https://github.com/ismycho/MMDB.git",
                      :tag => s.version }
 
   s.source_files  = "Sources/MMDB.swift", "Sources/libmaxminddb/*.{h,c}"
